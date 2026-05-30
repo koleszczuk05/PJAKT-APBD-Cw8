@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using PJAKT_APBD_Cw8.Models;
 
-namespace PJAKT_APBD_Cw8.Models;
+namespace PJAKT_APBD_Cw8.Infrastructure;
 
 public partial class HospitalContext : DbContext
 {
